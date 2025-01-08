@@ -10,6 +10,6 @@ I wanted to optimize the route I took.
 This program returns the optimal route to take after 10 generations of a genetic algorithm that calculates the Manhattan Distance (distance in terms of grid-based moves like up/down or left/right).
 While Dijkstra's algorithm might (as in this implementation only returns an approximately optimal solution, where as the Dijkstra's algorithm would guarantee an exact path) be more effective, my task isn't performance critical and any optimization would suffice. I mainly wanted to explore my interest in genetic algorithms.
 
-One feature I'm proud of is the use of lambda functions in the select_parents function. This was a huge improvement over my initial approach, which created another list for the tournament using the t_distance function and using that to select the parents.
+One feature I'm proud of is the use of lambda functions in the select_parents function. This was a huge improvement over my initial approach, which created another list for the tournament using the t_distance function and used that to select the parents.
 
 
